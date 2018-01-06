@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.apkglobal.onlineattendence.Activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/layout_margin">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        custom:auto_cycle="true"
+        custom:indicator_visibility="visible"
+        custom:pager_animation="Background2Foreground"
+        custom:pager_animation_span="1100"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/toolbar" />
+
+   <!-- <Button
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:id="@+id/btn_about"/>-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login As Teacher"
+        android:layout_marginTop="@dimen/margin_top"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/btn_teacher"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login As Admin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/btn_admin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login As Student"
+        android:layout_marginTop="@dimen/margin_top"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/btn_student"/>
+    <!--<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:id="@+id/btn_contact"/>-->
+    </LinearLayout>
+
+</LinearLayout>

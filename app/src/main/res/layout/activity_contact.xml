@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.onlineattendence.Activity.ContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contributors!!"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/tv_cont"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aditya Gupta"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tv_name1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adya Jha"
+        android:textStyle="italic"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_name2"/>
+</LinearLayout>
+
+</LinearLayout>

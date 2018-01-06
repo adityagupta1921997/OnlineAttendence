@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.apkglobal.onlineattendence.Activity.AboutActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="We are offering you the online based system which facilate the teachers to take online attendence without going for traditional ways of keeping registers , etc. Also this system will be useful for students as they can see their attendence any time..."
+        android:gravity="center"
+        android:backgroundTint="@color/colorAccent"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:id="@+id/tv_about"/>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Add Class"
+        android:id="@+id/tv_addclass"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class"
+        android:backgroundTint="@color/colorAccent"
+        android:textColorHint="#000"
+        android:layout_margin="20dp"
+        android:id="@+id/et_class"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginTop="30dp">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:backgroundTint="@color/colorAccent"
+        android:id="@+id/btn_submit"/>
+
+</LinearLayout>

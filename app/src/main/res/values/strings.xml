@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Online Attendence</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">HELLO THERE!</string>
+    <string name="slide_1_desc">Welcome to AKGEC!</string>
+
+    <string name="slide_2_title">SEE THE ARCHITECTURE</string>
+    <string name="slide_2_desc">Enjoy the greenery of our college!</string>
+
+    <string name="slide_3_title">SKILL CENTRE</string>
+    <string name="slide_3_desc">To gain special knowledge!</string>
+
+    <string name="slide_4_title">SPORTS</string>
+    <string name="slide_4_desc">Play in extra time!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_share">Share</string>
+</resources>
